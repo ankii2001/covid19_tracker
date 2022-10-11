@@ -8,7 +8,7 @@ import {
   CardContent,
 } from "@material-ui/core";
 import InfoBox from "./InfoBox";
-import LineGraph from "./LineGraph";
+// import LineGraph from "./LineGraph";
 import Table from "./Table";
 import { sortData, prettyPrintStat } from "./util";
 import numeral from "numeral";
@@ -115,8 +115,8 @@ const App = () => {
           />
         </div>
         <Map
-          countries={mapCountries}
           casesType={casesType}
+          countries={mapCountries}
           center={mapCenter}
           zoom={mapZoom}
         />
